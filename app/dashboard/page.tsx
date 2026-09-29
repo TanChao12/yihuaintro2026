@@ -1,4 +1,6 @@
-import React, { useState, useEffect, useRef, useLayoutEffect } from 'react';
+"use client";
+import React, { useState, useEffect } from 'react';
+// ... rest of your dashboard code ...
 import { initializeApp } from 'firebase/app';
 import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged } from 'firebase/auth';
 import { getFirestore, doc, onSnapshot, collection, addDoc, updateDoc } from 'firebase/firestore';
