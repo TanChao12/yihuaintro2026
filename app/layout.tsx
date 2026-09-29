@@ -1,4 +1,3 @@
-import './globals.css'; // If you have a global css file, otherwise optional
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -18,4 +17,4 @@ export default function RootLayout({
       </body>
     </html>
   );
-};
+}
