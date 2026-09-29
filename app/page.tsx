@@ -1,3 +1,6 @@
+"use client";
+import React, { useState, useEffect, useRef } from 'react';
+// ... rest of your main page code ...
 import React, { useState, useEffect, useRef, useLayoutEffect } from 'react';
 import { initializeApp } from 'firebase/app';
 import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged } from 'firebase/auth';
