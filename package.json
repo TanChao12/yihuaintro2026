@@ -10,7 +10,7 @@
   "dependencies": {
     "canvas-confetti": "^1.9.4",
     "firebase": "^10.8.0",
-    "gsap": "^12.5.0",
+    "gsap": "^3.12.5",
     "lenis": "^1.1.18",
     "next": "14.2.0",
     "react": "^18",
